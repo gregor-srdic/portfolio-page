@@ -11,3 +11,4 @@ Purpose of this page is to present my work, skills and experience
 [Mail](mailto:gregor.srdic@gmail.com)   
 # Credits
 Created by [IT Worker for Designer Template by Bootstrapious](http://bootstrapious.com)
+[Live example](http://it-worker.ondrejsvestka.cz/)

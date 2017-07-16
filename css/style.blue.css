@@ -194,7 +194,7 @@ INTRO
   font-size: 60px;
   color: #fff;
   margin-bottom: 40px;
-  font-weight: 700;
+  /*font-weight: 700;*/
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-backface-visibility: hidden;
@@ -314,22 +314,22 @@ ABOUT
 /*
 
 =====================
-SERVICES
+COMPETENCIES
 =====================
 
 */
-.services .icon {
+.competencies .icon {
   font-size: 60px;
   text-align: center;
   text-shadow: 5px 5px 0 #225ea2;
 }
-.services .heading {
+.competencies .heading {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 20px;
   text-align: center;
 }
-.services p {
+.competencies p {
   font-size: 15px;
   text-align: left;
 }
@@ -490,14 +490,14 @@ WORKS / REFERENCES
 /*
 
 =====================
-CUSTOMERS
+tools
 =====================
 
 */
-.customer {
+.tool {
   text-align: center;
 }
-.customer img {
+.tool img {
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -519,12 +519,15 @@ SHOWCASE
 }
 .showcase .item .icon {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 76px;
+  height: 76px;
   color: #fff;
-  line-height: 50px;
-  border-radius: 25px;
+  line-height: 76px;
+  border-radius: 38px;
   border: solid 1px #fff;
+}
+.showcase .item .icon i {
+  font-size: 32px;
 }
 .showcase .item h4 {
   font-weight: 400;
@@ -751,6 +754,10 @@ FOOTER
 }
 #footer p.social a {
   margin-left: 10px;
+  margin-right: 0px;
+}
+p.social a {
+  margin: 0 10px;
   color: #fff;
   display: inline-block;
   width: 50px;
@@ -764,19 +771,19 @@ FOOTER
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-#footer p.social a.facebook {
+p.social a.facebook {
   background-color: #4460ae;
 }
-#footer p.social a.gplus {
+p.social a.gplus {
   background-color: #c21f25;
 }
-#footer p.social a.twitter {
+p.social a.twitter {
   background-color: #1da1f2;
 }
-#footer p.social a.linkedin {
+p.social a.linkedin {
   background-color: #0084bf;
 }
-#footer p.social a.email {
+p.social a.email {
   background-color: #4a7f45;
 }
 @media (max-width: 767px) {
@@ -1543,6 +1550,7 @@ p {
 }
 .lead {
   margin-bottom: 22px;
+  margin-top: 60px;
   font-size: 18px;
 }
 @media (min-width: 768px) {
@@ -1803,4 +1811,23 @@ a.list-group-item.active > .badge,
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+/*
+=====================
+has-sub-icon
+=====================
+*/
+.icon.has-sub-icon {
+  position: relative;
+  background: red;
+}
+.sub-icon {
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  width: 12px;
+  margin-left: -6px;
+}
+.sub-icon i {
+  font-size:12px;
 }
