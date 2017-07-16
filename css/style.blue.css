@@ -770,8 +770,11 @@ FOOTER
 #footer p.social a.gplus {
   background-color: #c21f25;
 }
-#footer p.social a.instagram {
-  background-color: #cd4378;
+#footer p.social a.twitter {
+  background-color: #1da1f2;
+}
+#footer p.social a.linkedin {
+  background-color: #0084bf;
 }
 #footer p.social a.email {
   background-color: #4a7f45;
@@ -1044,7 +1047,7 @@ strong {
   color: #5091da;
   font-family: 'Roboto Slab', serif;
   font-size: 22px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   line-height: 22px;
   height: 80px;
