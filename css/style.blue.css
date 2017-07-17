@@ -333,6 +333,19 @@ COMPETENCIES
   font-size: 15px;
   text-align: left;
 }
+.competencies a {
+  color:#FFF;
+  font-weight: 700;
+  font-style: italic;
+}
+.competencies a:hover {
+  color:#FFF;
+}
+.competencies ul { 
+    text-align: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
 /*
 
 =====================
