@@ -415,6 +415,15 @@ WORKS / REFERENCES
   margin-bottom: 30px;
   background: #5091da;
 }
+.reference-item.clausius .reference {
+  background: rgba(0,168,165,0.4);
+}
+.reference-item.clausius1 .reference {
+  background: rgba(209,215,219,0.4);
+}
+.reference-item.econext .reference {
+  background: rgba(251,176,64,0.4);
+}
 .reference-item .reference a {
   display: block;
   position: relative;
