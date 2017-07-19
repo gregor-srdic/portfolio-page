@@ -507,6 +507,9 @@ tools
 =====================
 
 */
+#tools .mb20 {
+  margin-bottom: 0;
+}
 .tool {
   text-align: center;
 }
@@ -514,6 +517,7 @@ tools
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
+  height:210px;
 }
 /*
 
