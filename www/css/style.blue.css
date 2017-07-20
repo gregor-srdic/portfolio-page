@@ -809,6 +809,9 @@ p.social a.twitter {
 p.social a.linkedin {
   background-color: #0084bf;
 }
+p.social a.github {
+  background-color: #24292e;
+}
 p.social a.email {
   background-color: #4a7f45;
 }
