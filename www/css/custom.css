@@ -1,1 +1,4 @@
 /* your styles go here */
+#detail-slider .owl-item .img-responsive {
+  max-height: 768px;
+}
